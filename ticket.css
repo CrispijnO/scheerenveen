@@ -4,6 +4,7 @@
 	height: 500px;
 	margin: auto;
 	float: left;
+	background-color: blue;
 }
 
 .seats {
@@ -12,4 +13,25 @@
 	height: 500px;
 	margin: auto;
 	float: right;
+	background-color: red;
+}
+
+.tCenter {
+	text-align: center;
+}
+
+legend {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 0 auto;
+}
+
+form {
+	width: 100%;
+	margin: 0;
+	text-align: center;
+}
+
+fieldset {
+	border: none;
 }
