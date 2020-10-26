@@ -1,0 +1,63 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  margin: 0;
+}
+footer {
+  background-color: #29438c;
+  height: min-content;
+  margin: 0;
+  padding: 25px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-gap: 30px;
+}
+footer div {
+  border-radius: 2%;
+}
+.mapouter {
+  position: relative;
+  display: block;
+  text-align: center;
+  box-shadow: 3px 5px #a8b1c9;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+}
+iframe {
+  display: block;
+}
+.contactGegevens {
+  background-color: #eaedf4;
+  box-shadow: 3px 5px #a8b1c9;
+}
+footer p {
+  font-size: 20px;
+}
+.contactGegevens * {
+  width: 80%;
+  margin: 20px auto;
+}
+.volgendeWedstrijd {
+  text-align: center;
+  background-color: #eaedf4;
+  box-shadow: 3px 5px #a8b1c9;
+}
+.volgendeWedstrijd h2 {
+  margin-bottom: 20px;
+}
+.volgendeWedstrijd p img {
+  width: 60px;
+}
+.firstLogo {
+  margin-right: 50px;
+}
+@media only screen and (max-width: 600px) {
+  footer {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+}
