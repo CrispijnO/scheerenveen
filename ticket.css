@@ -1,0 +1,15 @@
+.orderForm {
+	width: 45%;
+	padding: 25px;
+	height: 500px;
+	margin: auto;
+	float: left;
+}
+
+.seats {
+	width: 45%;
+	padding: 25px;
+	height: 500px;
+	margin: auto;
+	float: right;
+}
