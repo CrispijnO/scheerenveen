@@ -123,6 +123,8 @@ body {
 }
 
 .nav {
+  position: relative;
+  z-index: 9999;
   width: 135px;
   height: 40px;
   margin: 5px 0 0 10px;

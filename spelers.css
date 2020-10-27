@@ -34,9 +34,9 @@ main img {
   max-width: 100%;
 }
 .tooltip {
-  /* position: relative;
+  position: relative;
   display: inline-block;
-  z-index: -1; */
+  /* z-index: -1; */
 }
 .tooltipText {
   visibility: hidden;
@@ -44,6 +44,8 @@ main img {
   background-color: #eaedf4;
   position: absolute;
   z-index: 1;
+  left: 50px;
+  bottom: 0;
   padding: 10px;
   border-radius: 20px;
 }

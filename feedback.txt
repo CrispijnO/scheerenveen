@@ -1,0 +1,6 @@
+lettertype navigatie is te detaileerd. 
+samengestelde classes gebruiken in css
+gedetaileerde class namen gebruiken
+kleuren aanpassen
+navigatie aanpasses zodat het relative en een z-index hebben
+goodweb.design
