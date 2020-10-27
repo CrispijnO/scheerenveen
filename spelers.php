@@ -49,17 +49,14 @@
         </div>
       </div>
     </header>
-    <nav>
-
-    </nav>
     <main>
         <div class="aanval">
           <h2>Aanvallers</h2>
           <div class="aanvalSpeler">
-            <figure class="tooltip">
+            <figure>
               <img src="https://www.sc-heerenveen.nl/includes/resize.asp?website=implementatie&image=6513704bd1e5e.png" alt="Ulysses Llanez">
+              <span class="overlay">Naam: Ulysses Llanez<br>Geboortedatum: 2 april 2001<br>Rugnummer: 7<br>Gespeelde wedstrijden: 2</span>
               <figcaption>Ulysses Llanez</figcaption>
-              <span class="tooltipText">Naam: Ulysses Llanez<br>Geboortedatum: 02 april 2001<br>Rugnummer: 7<br>Gespeelde wedstrijden: 2</span>
             </figure>
           </div>
           <div class="aanvalSpeler">
@@ -246,6 +243,6 @@
             ?>
           </p>
         </div>
-      </footer>
+    </footer>
 </body>
 </html>

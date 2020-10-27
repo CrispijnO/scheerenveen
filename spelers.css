@@ -1,3 +1,6 @@
+body {
+  background-color: #eaedf4;
+}
 main {
   width: 95%;
   margin: 0 auto;
@@ -7,7 +10,7 @@ main {
 }
 main div h2 {
   text-align: center;
-  background-color: #05b2dc;
+  background-color: #00509f;
   margin: 0;
   /* border-top-left-radius: 10px;
   border-top-right-radius: 10px; */
@@ -16,7 +19,7 @@ main div div {
   text-align: center;
 }
 figcaption {
-  background-color: #087ca7;
+  background-color: #00509f;
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
   color: #fff;
@@ -33,22 +36,29 @@ main img {
   width: fit-content;
   max-width: 100%;
 }
-.tooltip {
+figure {
   position: relative;
   display: inline-block;
-  /* z-index: -1; */
 }
-.tooltipText {
-  visibility: hidden;
-  width: fit-content;
-  background-color: #eaedf4;
+.overlay {
   position: absolute;
-  z-index: 1;
-  left: 50px;
   bottom: 0;
-  padding: 10px;
-  border-radius: 20px;
+  left: 0;
+  background: rgba(234, 237, 244, 0.9);
+  color: #000000;
+  transition: 0.5s ease;
+  opacity: 0;
+  padding: 6%;
+  width: 88%;
+  font-size: 2vh;
+  text-align: center;
 }
-.tooltip:hover .tooltipText {
-  visibility: visible;
+figure:hover .overlay {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 750px) {
+  main {
+    grid-template-columns: 1fr;
+  }
 }
