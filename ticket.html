@@ -4,88 +4,90 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="ticket.css" />
-		<link rel="stylesheet" href="footer.css" />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-			rel="stylesheet"
-		/>
+		<link rel="stylesheet" href="footerheader.css" />
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
 		<title>Tickets</title>
 	</head>
 	<body>
-		<div class="container">
-			<div class="orderForm">
-				<form name="formulier" action="" method="POST">
-					<fieldset>
-						<legend class="tCenter">Heerenveen - Ajax</legend>
-						<p class="tCenter">Dit is de eerst komende wedstrijd.</p>
-						<div class="fullName">
-							<input
-								class="u-half-width"
-								type="text"
-								name="firstName"
-								value=""
-								placeholder="Voor naam"
-								class="tCenter"
-							/>
-							<input
-								class="u-half-width"
-								type="text"
-								name="lastName"
-								value=""
-								placeholder="Achter naam"
-								class="tCenter"
-							/>
+		<header>
+			<div class="header">
+				<div class="heerenveen">
+					<img src="images/heerenveen-logo.png" alt="logo" class="foto" />
+					<div class="logo-text"> SC Heerenveen </div>
+					<a href="#">
+						<div class="sponsoren">
+							<img src="images/Ausnutria-logo.png" alt="hoofdsponsor" class="foto-hoofdsponsor" />
 						</div>
-						<input
-							class="u-full-width"
-							type="email"
-							name="email"
-							value=""
-							placeholder="E-Mail"
-							class="tCenter emailInput"
-						/>
-						<div class="addressInput">
-							<input
-								class="u-full-width"
-								type="text"
-								name="address"
-								value=""
-								placeholder="Adres"
-								class="tCenter"
-							/>
-						</div>
-						<div class="streetNumber">
-							<input
-								class="u-medium-full-width"
-								type="text"
-								name="street"
-								value=""
-								placeholder="Straat"
-								class="tCenter"
-							/>
-							<input
-								class="u-small-width"
-								type="number"
-								name="housenumber"
-								value=""
-								placeholder="Huis nummer"
-								class="tCenter"
-							/>
-						</div>
-						<input type="number" name="seat" value="" class="tCenter" />
-						<input
-							class="submit-button"
-							type="submit"
-							id="verzend"
-							name="verzend"
-							value="Verzend"
-						/>
-					</fieldset>
-				</form>
+					</a>
+				</div>
+				<div class="background">
+					<div class="nav">
+						<div class="index"> NAVIGATIE </div>
+						<a href="#">HOME</a>
+						<a href="#">WEDSTRIJDEN</a>
+						<a href="#">SPELERS</a>
+						<a href="#">BIER</a>
+						<a href="#">TICKETS</a>
+						<a href="#">SPONSOREN</a>
+						<a href="#">BESTUUR</a>
+						<a href="#">OVER ONS</a>
+						<a href="#">CONTACT</a>
+					</div>
+				</div>
 			</div>
-			<div class="seats"></div>
-		</div>
-		<!-- <footer>
+		</header>
+		<main>
+			<div class="container">
+				<h1 class="tCenter">Ticket verkoop</h1>
+				<p class="tCenter">Deze tickets zijn voor de eerst komende wedstrijd.</p>
+				<div class="contact-box">
+					<div class="contact-left">
+						<h2 class="tCenter">Heerenveen - Ajax</h2>
+						<form action="" class="ticket-form">
+							<div class="input-row">
+								<div class="input-group">
+									<!-- <label for="">Voor Naam</label> -->
+									<input type="text" placeholder="Voor naam" />
+								</div>
+								<div class="input-group">
+									<!-- <label for="">Voor Naam</label> -->
+									<input type="text" placeholder="Achternaam naam" />
+								</div>
+							</div>
+							<div class="input-row">
+								<div class="input-group">
+									<!-- <label for="">Phone</label> -->
+									<input type="text" placeholder="Telefoon nummer" />
+								</div>
+								<div class="input-group">
+									<!-- <label for="">Email</label> -->
+									<input type="email" placeholder="E-Mail" />
+								</div>
+							</div>
+							<div class="input-row">
+								<div class="input-group">
+									<!-- <label for="">Subject</label> -->
+									<!-- <input type="text" placeholder="Product Demo" /> -->
+									<input type="text" placeholder="Zit Plaats" />
+								</div>
+								<div class="input-group">
+									<!-- <label for="">Subject</label> -->
+									<!-- <input type="text" placeholder="Product Demo" /> -->
+									<div class="dateInput">Date: 10/28/2020</div>
+								</div>
+							</div>
+							<!-- <label for="">Message</label> -->
+							<!-- <textarea name="" id="" rows="5" placeholder="Your Message"></textarea> -->
+							<input class="submit-button" type="submit" id="submit" name="buy" value="Buy Now" />
+						</form>
+					</div>
+					<div class="contact-right">
+						<img class="stadion-img" src="./images/stadion.png" />
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer>
 			<div class="mapouter">
 				<div class="gmap_canvas">
 					<iframe
@@ -136,6 +138,6 @@
 					?>
 				</p>
 			</div>
-		</footer> -->
+		</footer>
 	</body>
 </html>
