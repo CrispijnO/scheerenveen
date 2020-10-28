@@ -5,7 +5,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="ticket.css" />
 		<link rel="stylesheet" href="footer.css" />
-		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+			rel="stylesheet"
+		/>
 		<title>Tickets</title>
 	</head>
 	<body>
@@ -14,15 +17,73 @@
 				<form name="formulier" action="" method="POST">
 					<fieldset>
 						<legend class="tCenter">Heerenveen - Ajax</legend>
-						<input type="text" name="firstName" value="" placeholder="Voor naam" class="tCenter" />
-						<input type="text" name="lastName" value="" placeholder="Achter naam" class="tCenter" />
-						<input type="email" name="email" value="" placeholder="E-Mail" class="tCenter" />
+						<p class="tCenter">Dit is de eerst komende wedstrijd.</p>
+						<div class="fullName">
+							<input
+								class="u-half-width"
+								type="text"
+								name="firstName"
+								value=""
+								placeholder="Voor naam"
+								class="tCenter"
+							/>
+							<input
+								class="u-half-width"
+								type="text"
+								name="lastName"
+								value=""
+								placeholder="Achter naam"
+								class="tCenter"
+							/>
+						</div>
+						<input
+							class="u-full-width"
+							type="email"
+							name="email"
+							value=""
+							placeholder="E-Mail"
+							class="tCenter emailInput"
+						/>
+						<div class="addressInput">
+							<input
+								class="u-full-width"
+								type="text"
+								name="address"
+								value=""
+								placeholder="Adres"
+								class="tCenter"
+							/>
+						</div>
+						<div class="streetNumber">
+							<input
+								class="u-medium-full-width"
+								type="text"
+								name="street"
+								value=""
+								placeholder="Straat"
+								class="tCenter"
+							/>
+							<input
+								class="u-small-width"
+								type="number"
+								name="housenumber"
+								value=""
+								placeholder="Huis nummer"
+								class="tCenter"
+							/>
+						</div>
 						<input type="number" name="seat" value="" class="tCenter" />
+						<input
+							class="submit-button"
+							type="submit"
+							id="verzend"
+							name="verzend"
+							value="Verzend"
+						/>
 					</fieldset>
-					<input type="submit" id="verzend" name="verzend" value="Verzend" />
 				</form>
 			</div>
-			<div class="seats"> </div>
+			<div class="seats"></div>
 		</div>
 		<!-- <footer>
 			<div class="mapouter">

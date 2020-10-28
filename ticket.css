@@ -1,17 +1,20 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
 .orderForm {
 	width: 45%;
-	padding: 25px;
 	height: 500px;
-	margin: auto;
 	float: left;
-	background-color: blue;
+	/* background-color: blue; */
+	padding: 0;
 }
 
 .seats {
 	width: 45%;
 	padding: 25px;
 	height: 500px;
-	margin: auto;
 	float: right;
 	background-color: red;
 }
@@ -26,12 +29,88 @@ legend {
 	margin: 0 auto;
 }
 
-form {
-	width: 100%;
-	margin: 0;
-	text-align: center;
-}
-
 fieldset {
 	border: none;
+	margin: 0;
+	padding: 0;
 }
+
+.u-half-width {
+	width: 48%;
+	box-sizing: border-box;
+}
+
+.u-full-width {
+	width: 98%;
+	box-sizing: border-box;
+}
+
+.u-small-width {
+	width: 24%;
+	box-sizing: border-box;
+}
+
+.u-medium-full-width {
+	width: 74%;
+	box-sizing: border-box;
+}
+.streetNumber {
+	float: left;
+	width: 100%;
+}
+form {
+	margin-bottom: 2.5rem;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+input,
+textarea {
+	margin-bottom: 1.5rem;
+}
+
+input[type="submit"].submit-button {
+	color: #fff;
+	background-color: #33c3f0;
+	border-color: #33c3f0;
+}
+
+input[type="submit"]:hover {
+	color: #333;
+	border-color: #888;
+	outline: 0;
+}
+
+input[type="submit"] {
+	display: inline-block;
+	height: 38px;
+	padding: 0 30px;
+	color: #555;
+	text-align: center;
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 38px;
+	letter-spacing: 0.1rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	white-space: nowrap;
+	background-color: transparent;
+	border-radius: 4px;
+	border: 1px solid #bbb;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+input[type="text"], 
+input[type="number"], 
+input[type="email"]
+ {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}	
