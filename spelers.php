@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="spelers.css">
-    <link rel="stylesheet" href="footer.css" />
-    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footerheader.css" />
+    <!-- <link rel="stylesheet" href="header.css"> -->
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
