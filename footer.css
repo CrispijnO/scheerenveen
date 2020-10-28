@@ -56,7 +56,7 @@ footer p {
 .firstLogo {
   margin-right: 50px;
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 740px) {
   footer {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);

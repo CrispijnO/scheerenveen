@@ -2,6 +2,7 @@ body {
   background-color: #eaedf4;
 }
 main {
+  padding-top: 15px;
   width: 95%;
   margin: 0 auto;
   display: grid;
@@ -60,5 +61,8 @@ figure:hover .overlay {
 @media only screen and (max-width: 750px) {
   main {
     grid-template-columns: 1fr;
+  }
+  .overlay {
+    font-size: 100%;
   }
 }
