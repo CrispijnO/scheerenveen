@@ -27,7 +27,7 @@
           </div>
           <a href="#">
             <div class="sponsoren">
-              <img src="images/Ausnutria-logo2.png" alt="hoofdsponsor" class="foto-hoofdsponsor">
+              <img src="images/Ausnutria-logo.png" alt="hoofdsponsor" class="foto-hoofdsponsor">
             </div>
           </a>
         </div>
