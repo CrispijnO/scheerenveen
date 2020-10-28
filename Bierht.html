@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta http-equiv="Content-Type"
+        content="text/html";
+        charset="UTF-8">
+        <link rel="stylesheet" href="BierCs.css">
+        <meta name="robots" content="all">
+        <meta name="language" content="Dutch">
+        <meta name="author" content="inowhare">
+        <meta name="description" content="sc hereveen">
+        <meta name="keywords" content="voetbal, hereveen, abe lenstra stadion">
+        <title>sc hereveen</title>
+    </head>
+    <body>
+        <div class="header">
+            <div class="heerenveen">
+                <img src="images/heerenveen-logo.png" alt="logo" class="foto">
+                <div class="logo-text">
+                SC Heerenveen
+                </div>
+                <a href="#">
+                <div class="sponsoren">
+                    <img src="images/Ausnutria-logo.png" alt="hoofdsponsor" class="foto-hoofdsponsor">
+                </div>
+                </a>
+            </div>
+            <div class="background">
+            <div class="nav">
+                <div class="index">NAVIGATIE</div>
+                <a href="#">HOME</a>
+                <a href="#">WEDSTRIJDEN</a>
+                <a href="#">SPELERS</a>
+                <a href="#">BIER</a>
+                <a href="#">TICKETS</a>
+                <a href="#">SPONSOREN</a>
+                <a href="#">BESTUUR</a>
+                <a href="#">OVER ONS</a>
+                <a href="#">CONTACT</a>
+            </div>
+            </div>
+        </div>
+        <div class="hello">
+
+        </div>
+    <main class="main">
+      <div class="bestel">
+        <form action="Bier.php" method="POST">
+            <div class="input">
+              <label>aantal:</label>
+              <input type="number" name="aantal" required/><br />
+    
+              <label>achternaam:</label>
+              <input type="text" name="firstname" required/><br />
+    
+              <label>voornaam:</label>
+              <input type="text" name="lastname" required/><br />
+    
+              <label>bent u 18+?:</label>
+              <select name="adult" id="18">
+                  <option value="1">ja</option>
+                  <option value="0">nee</option>
+              </select>
+              <button type="submit" name="submit" id="sub">Submit</button>
+            </div>
+        <img src="images/Screenshot (87).png" id="kaart">       
+      </div>
+  
+      <div class="informatie">
+        <h1>Abe Bier</h1>
+        <h3>Wij bij SC Heerenveen verkopen ABE-bier, wat is dat nou dat ABE-bier? Het ABE-bier is een fris blond bier van zes procent alcohol, met daarin een hele lichte groene tint van het gras van het Abe Lenstra Stadion.</h3>
+          <h1>informatie over het verkoop van bier</h1>
+          <h3> wij mogen alleen alcohol verkopen aan jongeren van 18 jaar of ouder. Daarom moeten wij de leeftijd van een jongere controleren. Iedereen die jonger is dan 18 jaar mag geen bier kopen en er wordt dus geen transactie doorgevoerd als u jonger bent.</h3>
+          <img width="340" src="nix18.png" class="nix">
+      </div> 
+    </main>
+    <!-- hier begint de footer -->
+
+    <!-- hier eindigt de footer -->
+  </body>
+</html>
