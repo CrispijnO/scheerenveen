@@ -3,9 +3,17 @@
 <!DOCTYPE html>
 <html>
     <head>
+    <meta http-equiv="Content-Type"
+        content="text/html";
+        charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="footerheader.css">
         <link rel="stylesheet" type="text/css" href="contact.css">
-        <link rel="stylesheet" type="text/css" href="header.css">
-        <link rel="stylesheet" type="text/css" href="footer.css">
+        <meta name="robots" content="all">
+        <meta name="language" content="Dutch">
+        <meta name="author" content="inowhare">
+        <meta name="description" content="sc hereveen">
+        <meta name="keywords" content="voetbal, hereveen, abe lenstra stadion">
+        <title>sc hereveen</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" >
         <title>contact</title>
     </head>
