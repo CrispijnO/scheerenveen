@@ -40,48 +40,38 @@
 			<div class="container">
 				<h1 class="tCenter">Ticket verkoop</h1>
 				<p class="tCenter">Deze tickets zijn voor de eerst komende wedstrijd.</p>
-				<div class="contact-box">
-					<div class="contact-left">
-						<h2 class="tCenter">Heerenveen - Ajax</h2>
-						<form action="" class="ticket-form">
+				<div class="ticket-box">
+					<div class="ticket-left">
+						<h2 class="tCenter">Sc Heerenveen - Feyenoord</h2>
+						<form action="ticket-backend.php" class="ticket-form" method="POST">
 							<div class="input-row">
 								<div class="input-group">
-									<!-- <label for="">Voor Naam</label> -->
-									<input type="text" placeholder="Voor naam" />
+									<input type="text" name="firstName" placeholder="Voor naam" id="firstName" />
 								</div>
 								<div class="input-group">
-									<!-- <label for="">Voor Naam</label> -->
-									<input type="text" placeholder="Achternaam naam" />
+									<input type="text" name="lastName" placeholder="Achternaam naam" />
 								</div>
 							</div>
 							<div class="input-row">
 								<div class="input-group">
-									<!-- <label for="">Phone</label> -->
-									<input type="text" placeholder="Telefoon nummer" />
+									<input type="text" name="phoneNumber" placeholder="Telefoon nummer" />
 								</div>
 								<div class="input-group">
-									<!-- <label for="">Email</label> -->
-									<input type="email" placeholder="E-Mail" />
+									<input type="email" name="email" placeholder="E-Mail" />
 								</div>
 							</div>
 							<div class="input-row">
 								<div class="input-group">
-									<!-- <label for="">Subject</label> -->
-									<!-- <input type="text" placeholder="Product Demo" /> -->
-									<input type="text" placeholder="Zit Plaats" />
+									<input type="text" name="seat" placeholder="Zit Plaats" />
 								</div>
 								<div class="input-group">
-									<!-- <label for="">Subject</label> -->
-									<!-- <input type="text" placeholder="Product Demo" /> -->
-									<div class="dateInput">Date: 10/28/2020</div>
+									<div class="dateInput">Date: 28/10/2020</div>
 								</div>
 							</div>
-							<!-- <label for="">Message</label> -->
-							<!-- <textarea name="" id="" rows="5" placeholder="Your Message"></textarea> -->
 							<input class="submit-button" type="submit" id="submit" name="buy" value="Buy Now" />
 						</form>
 					</div>
-					<div class="contact-right">
+					<div class="ticket-right">
 						<img class="stadion-img" src="./images/stadion.png" />
 					</div>
 				</div>
@@ -123,19 +113,15 @@
 			<div class="volgendeWedstrijd">
 				<h2>Volgende Wedstrijd</h2>
 				<p>
-					<?php
-                    echo "23 December 2020
-                    <br />
-					14:00
-					<br />
-					Sc Heerenveen - Feyenoord
-					<br />
-					<img
-						class="firstLogo"
-						src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/SC_Heerenveen_logo.svg/1200px-SC_Heerenveen_logo.svg.png"
-						alt="SC Heerenveen logo"
-					/><img class="secondLogo" src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/Feyenoord_logo.svg/1200px-Feyenoord_logo.svg.png" alt="Feyenoord logo" />"
-					?>
+				<?php
+              		echo "23 December 2020
+              		<br />
+              		14:00
+              		<br />
+              		Sc Heerenveen - Feyenoord
+              		<br>
+              		<img class='firstLogo' src='https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/SC_Heerenveen_logo.svg/1200px-SC_Heerenveen_logo.svg.png' alt='SC Heerenveen logo'><img class='secondLogo' src='https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/Feyenoord_logo.svg/1200px-Feyenoord_logo.svg.png' alt='Feyenoord logo'>"
+            	?>
 				</p>
 			</div>
 		</footer>
