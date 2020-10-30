@@ -3,8 +3,8 @@
     // $username = "deb85590_heerenveen1";
     // $password = "hS5LCDkkR@kHK4";
     // $dbname = "deb85590_heerenveen1";
-    $connection = mysqli_connect("localhost", "root", "test", "school");
-    // mysqli_connect($host, $username, $password, $dbname);
+    $connection = new mysqli("localhost", "root", "test", "school");
+    // $connection = mysqli_connect($host, $username, $password, $dbname);
     if (!$connection){
         die("Connection failed: " . mysqli_connect_error() . "<br>");
     }else{
@@ -16,6 +16,7 @@
     $phoneNumber = $_POST['phoneNumber'];
     $email = $_POST["email"];
     $seat = $_POST["seat"];
+    $orderDate = "2020-10-30";
     
     echo $firstName . "<br>";
     echo $lastName . "<br>";
@@ -39,7 +40,7 @@
       die();
     };
     if (isset($firstName) || isset($lastName) || isset($phoneNumber) || isset($email) || isset($seat)) {
-      echo "value is not declared.";
+      // echo "value is not declared.";
       // TODO
       die();
     };
@@ -49,6 +50,32 @@
       die();
     };
 
+    $createTable = "CREATE TABLE IF NOT EXISTS tickets (
+      ID INT(11) NOT NULL KEY AUTO_INCREMENT,
+      firstname VARCHAR(25) NOT NULL,
+      lastname VARCHAR(25),
+      phoneNumber VARCHAR(10) NOT NULL,
+      email VARCHAR(50) NOT NULL,
+      orderDate DATE NOT NULL
+      )";
+
+
+    $sqlQuery = "INSERT INTO tickets (firstname, lastname, phoneNumber, email, orderDate)
+    VALUES ($firstName, $lastName, $phoneNumber, $email, $orderDate)";
+
+    if (mysqli_query($connection, $createTable)) {
+      echo "New table created.";
+    } else {
+      echo "Error: " . $createTable . "<br>" . mysqli_error($connection);
+    }
+
+    if (mysqli_query($connection, $sqlQuery)) {
+      "New data inserted into the tickets table.";
+    } else {
+      echo "Error: " . $sqlQuery . "<br>" . mysqli_error($connection);
+    }
+
+    header("Location: ./ticket.php");
 
     
 

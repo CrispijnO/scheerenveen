@@ -65,7 +65,7 @@
 									<input type="text" name="seat" placeholder="Zit Plaats" />
 								</div>
 								<div class="input-group">
-									<div class="dateInput">Date: 28/10/2020</div>
+									<div class="dateInput">Date: 30/10/2020</div>
 								</div>
 							</div>
 							<input class="submit-button" type="submit" id="submit" name="buy" value="Buy Now" />
