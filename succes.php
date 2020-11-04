@@ -10,8 +10,7 @@ if (empty($_SESSION['succes'])) {
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="contact.css">
-        <link rel="stylesheet" type="text/css" href="header.css">
-        <link rel="stylesheet" type="text/css" href="footer.css">
+        <link rel="stylesheet" type="text/css" href="footerheader.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" >
         <title>contact</title>
     </head>
@@ -22,7 +21,7 @@ if (empty($_SESSION['succes'])) {
                 <div class="logo-text">
                 SC Heerenveen
                 </div>
-                <a href="#">
+                <a href="sponsor.php">
                 <div class="sponsoren">
                     <img src="images/Ausnutria-logo.png" alt="hoofdsponsor" class="foto-hoofdsponsor">
                 </div>
@@ -31,15 +30,15 @@ if (empty($_SESSION['succes'])) {
             <div class="background">
             <div class="nav">
                 <div class="index">NAVIGATIE</div>
-                <a href="#">HOME</a>
+                <a href="index.php">HOME</a>
                 <a href="#">WEDSTRIJDEN</a>
-                <a href="#">SPELERS</a>
-                <a href="#">BIER</a>
-                <a href="#">TICKETS</a>
-                <a href="#">SPONSOREN</a>
+                <a href="spelers.php">SPELERS</a>
+                <a href="bier-home.php">BIER</a>
+                <a href="tickets.php">TICKETS</a>
+                <a href="sponsor.php">SPONSOREN</a>
                 <a href="#">BESTUUR</a>
-                <a href="#">OVER ONS</a>
-                <a href="#">CONTACT</a>
+                <a href="over-ons.php">OVER ONS</a>
+                <a href="contact.php">CONTACT</a>
             </div>
             </div>
         </div>

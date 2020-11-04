@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="footerheader.css">
-    <title>Document</title>
+    <title>SC Heerenveen Home</title>
 </head>
 <body>
     <div class="header">
@@ -14,7 +14,7 @@
             <div class="logo-text">
             SC Heerenveen
             </div>
-            <a href="#">
+            <a href="sponsor.php">
                 <div class="sponsoren">
                     <img src="images/Ausnutria-logo.png" alt="hoofdsponsor" class="foto-hoofdsponsor">
                 </div>
@@ -26,10 +26,10 @@
                 <a href="index.php">HOME</a>
                 <a href="#">WEDSTRIJDEN</a>
                 <a href="spelers.php">SPELERS</a>
-                <a href="bierht.html">BIER</a>
-                <a href="ticket.php">TICKETS</a>
+                <a href="bier-home.php">BIER</a>
+                <a href="tickets.php">TICKETS</a>
                 <a href="sponsor.php">SPONSOREN</a>
-                <a href="bestuur.html">BESTUUR</a>
+                <a href="#">BESTUUR</a>
                 <a href="over-ons.php">OVER ONS</a>
                 <a href="contact.php">CONTACT</a>
             </div>
@@ -45,7 +45,7 @@
           </p>
         </div>
         <div class="ticketHighlight">
-          <a href="ticket.php" class="ticketLink">
+          <a href="tickets.php" class="ticketLink">
             <p>Bestel hier <br>uw ticket voor deze wedstrijd!</p>
           </a>
         </div>
@@ -60,7 +60,7 @@
           <img class='secondLogo' src='https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/Feyenoord_logo.svg/1200px-Feyenoord_logo.svg.png' alt='Feyenoord logo'>
         </div>
         <div class="bierAdvertentie">
-          <a href="bierht.html" class="bierLink">
+          <a href="bier-home.php" class="bierLink">
             <p>
               Bier hier!<br>Nu 2 voor de prijs van 2!
             </p>

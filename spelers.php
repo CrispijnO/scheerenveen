@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="spelers.css">
-    <link rel="stylesheet" href="footerheader.css" />
     <!-- <link rel="stylesheet" href="header.css"> -->
+    <link rel="stylesheet" type="text/css" href="footerheader.css">
+    <link rel="stylesheet" type="text/css" href="spelers.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
@@ -25,27 +25,25 @@
           <div class="logo-text">
             SC Heerenveen
           </div>
-          <a href="#">
+          <a href="sponsor.php">
             <div class="sponsoren">
               <img src="images/Ausnutria-logo.png" alt="hoofdsponsor" class="foto-hoofdsponsor">
             </div>
           </a>
         </div>
         <div class="background">
-          <div class="nav">
-            <div class="index">
-              NAVIGATIE
+            <div class="nav">
+                <div class="index">NAVIGATIE</div>
+                <a href="index.php">HOME</a>
+                <a href="#">WEDSTRIJDEN</a>
+                <a href="spelers.php">SPELERS</a>
+                <a href="bier-home.php">BIER</a>
+                <a href="tickets.php">TICKETS</a>
+                <a href="sponsor.php">SPONSOREN</a>
+                <a href="#">BESTUUR</a>
+                <a href="over-ons.php">OVER ONS</a>
+                <a href="contact.php">CONTACT</a>
             </div>
-            <a href="#">HOME</a>
-            <a href="#">WEDSTRIJDEN</a>
-            <a href="#">SPELERS</a>
-            <a href="#">BIER</a>
-            <a href="#">TICKETS</a>
-            <a href="#">SPONSOREN</a>
-            <a href="#">BESTUUR</a>
-            <a href="#">OVER ONS</a>
-            <a href="#">CONTACT</a>
-          </div>
         </div>
       </div>
     </header>

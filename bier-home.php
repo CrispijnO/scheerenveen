@@ -1,24 +1,22 @@
-<?php include('server.php'); ?>
-
 <!DOCTYPE html>
-<html>
+<html lang="nl">
     <head>
-    <meta http-equiv="Content-Type"
+        <meta http-equiv="Content-Type"
         content="text/html";
         charset="UTF-8">
+        <link rel="stylesheet" href="">
+        <link rel="stylesheet" type="text/css" href="BierCs.css">
         <link rel="stylesheet" type="text/css" href="footerheader.css">
-        <link rel="stylesheet" type="text/css" href="contact.css">
         <meta name="robots" content="all">
         <meta name="language" content="Dutch">
         <meta name="author" content="inowhare">
         <meta name="description" content="sc hereveen">
         <meta name="keywords" content="voetbal, hereveen, abe lenstra stadion">
-        <title>sc hereveen</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-        <title>contact</title>
+        <title>ABE-bier</title>
     </head>
     <body>
-    <div class="header">
+        <div class="header">
             <div class="heerenveen">
                 <img src="images/heerenveen-logo.png" alt="logo" class="foto">
                 <div class="logo-text">
@@ -45,47 +43,37 @@
             </div>
             </div>
         </div>
-        <div class="box">
-            <div class="contact-info">
-            <div class="box">
-            <p>
-            kies hier een manier om met ons in contact te komen.<br>
-            U kunt het formulier invullen, maar ook rechtstreeks bellen of 
-            mailen
-            </p> <br>
-            <br>
-            <p class="info-big">
-            contact informatie:
-            </p>
-            <br>
-            <p>
-            e-mail: placeholder@email.com<br>
-            telefoon: 0514-415131<br>
-            plaats: Heerenveen
-            </p>
+    <main class="main">
+      <div class="bestel">
+        <form action="Bier.php" method="POST">
+            <div class="input">
+              <label>aantal:</label>
+              <input type="number" name="aantal" required/><br />
+    
+              <label>achternaam:</label>
+              <input type="text" name="firstname" required/><br />
+    
+              <label>voornaam:</label>
+              <input type="text" name="lastname" required/><br />
+    
+              <label>bent u 18+?:</label>
+              <select name="adult" id="18">
+                  <option value="1">ja</option>
+                  <option value="0">nee</option>
+              </select>
+              <button type="submit" name="submit" id="sub">Submit</button>
             </div>
-            </div>
-            <div class="contact-formulier">
-                <form action="contact.php" method="POST">
-                    <?php include('errors.php') ?>
-                    <div class="textbox">
-                        <input type="text" autocomplete="given-name" placeholder="naam" name="name">
-                    </div>
-                    <div class="textbox">
-                        <input type="text" autocomplete="family-name" placeholder="achternaam" name="lastname">
-                    </div>
-                    <div class="textbox">
-                        <input type="email" autocomplete="email" placeholder="e-mail adres" name="email">
-                    </div>
-                    <div class="textfield">
-                        <textarea placeholder="uw bericht aan ons" 
-                        name="message" rows="4" cols="40"></textarea>
-                    </div>
-                    <button type="submit" name="submit" class="button">verstuur</button>
-                </form>
-            </div>
-        </div>
-        <footer>
+        <img src="images/map.png" id="kaart">       
+      </div>
+      <div class="informatie">
+        <h1>Abe Bier</h1>
+        <h3>Wij bij SC Heerenveen verkopen ABE-bier, wat is dat nou dat ABE-bier? Het ABE-bier is een fris blond bier van zes procent alcohol, met daarin een hele lichte groene tint van het gras van het Abe Lenstra Stadion.</h3>
+          <h1>informatie over het verkoop van bier</h1>
+          <h3> wij mogen alleen alcohol verkopen aan jongeren van 18 jaar of ouder. Daarom moeten wij de leeftijd van een jongere controleren. Iedereen die jonger is dan 18 jaar mag geen bier kopen en er wordt dus geen transactie doorgevoerd als u jonger bent.</h3>
+          <img width="340" src="images/nix18.png" class="nix">
+      </div> 
+    </main>
+    <footer>
       <div class="mapouter">
         <div class="gmap_canvas">
           <iframe
@@ -133,5 +121,5 @@
         </p>
       </div>
     </footer>
-    </body>
+  </body>
 </html>

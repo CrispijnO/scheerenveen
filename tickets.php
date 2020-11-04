@@ -1,4 +1,4 @@
-<?php include('server.php'); ?>
+<?php include('tickets-server.php') ?>
 
 <!DOCTYPE html>
 <html>
@@ -7,7 +7,7 @@
         content="text/html";
         charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="footerheader.css">
-        <link rel="stylesheet" type="text/css" href="contact.css">
+        <link rel="stylesheet" type="text/css" href="tickets.css">
         <meta name="robots" content="all">
         <meta name="language" content="Dutch">
         <meta name="author" content="inowhare">
@@ -15,7 +15,7 @@
         <meta name="keywords" content="voetbal, hereveen, abe lenstra stadion">
         <title>sc hereveen</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-        <title>contact</title>
+        <title>ticket</title>
     </head>
     <body>
     <div class="header">
@@ -45,44 +45,31 @@
             </div>
             </div>
         </div>
-        <div class="box">
-            <div class="contact-info">
-            <div class="box">
-            <p>
-            kies hier een manier om met ons in contact te komen.<br>
-            U kunt het formulier invullen, maar ook rechtstreeks bellen of 
-            mailen
-            </p> <br>
-            <br>
-            <p class="info-big">
-            contact informatie:
-            </p>
-            <br>
-            <p>
-            e-mail: placeholder@email.com<br>
-            telefoon: 0514-415131<br>
-            plaats: Heerenveen
-            </p>
-            </div>
-            </div>
-            <div class="contact-formulier">
-                <form action="contact.php" method="POST">
-                    <?php include('errors.php') ?>
+        <div class="container">
+            <div class="input-box">
+                <p class="warning">let op!<br>uw bestelt tickets voor de eerst volgende wedstrijd!</p>
+                <?php include('errors.php') ?>
+                <form action="tickets.php" method="POST">
                     <div class="textbox">
-                        <input type="text" autocomplete="given-name" placeholder="naam" name="name">
+                      <input type="text" autocomplete="given-name" placeholder="naam" name="name">
                     </div>
                     <div class="textbox">
-                        <input type="text" autocomplete="family-name" placeholder="achternaam" name="lastname">
+                      <input type="text" autocomplete="family-name" placeholder="achternaam" name="lastname">
                     </div>
                     <div class="textbox">
-                        <input type="email" autocomplete="email" placeholder="e-mail adres" name="email">
+                      <input type="tel" placeholder="telefoon nummer" name="phone">
                     </div>
-                    <div class="textfield">
-                        <textarea placeholder="uw bericht aan ons" 
-                        name="message" rows="4" cols="40"></textarea>
+                    <div class="textbox">
+                      <input type="text" autocomplete="email" placeholder="e-mail adres" name="email">
                     </div>
-                    <button type="submit" name="submit" class="button">verstuur</button>
+                    <div class="textbox">
+                      <input type="text" placeholder="uw zitvak ?" name="seat" maxlength="2">
+                    </div>
+                    <button type="submit" name="submit" class="button">bestel</button>
                 </form>
+            </div>
+            <div class="field-img">
+              <img src="images/stadion.png">
             </div>
         </div>
         <footer>

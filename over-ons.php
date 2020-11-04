@@ -11,7 +11,7 @@
         <meta name="author" content="innoware">
         <meta name="description" content="sc hereveen">
         <meta name="keywords" content="voetbal, hereveen, abe lenstra stadion">
-        <title>sc hereveen</title>
+        <title>over ons</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     </head>
     <body>
@@ -21,7 +21,7 @@
                 <div class="logo-text">
                 SC Heerenveen
                 </div>
-                <a href="#">
+                <a href="sponsor.php">
                 <div class="sponsoren">
                     <img src="images/Ausnutria-logo.png" alt="hoofdsponsor" class="foto-hoofdsponsor">
                 </div>
@@ -29,16 +29,16 @@
             </div>
             <div class="background">
             <div class="nav">
-                <div class="index">php</div>
-                <a href="#">HOME</a>
+                <div class="index">NAVIGATIE</div>
+                <a href="index.php">HOME</a>
                 <a href="#">WEDSTRIJDEN</a>
-                <a href="#">SPELERS</a>
-                <a href="#">BIER</a>
-                <a href="#">TICKETS</a>
-                <a href="#">SPONSOREN</a>
+                <a href="spelers.php">SPELERS</a>
+                <a href="bier-home.php">BIER</a>
+                <a href="tickets.php">TICKETS</a>
+                <a href="sponsor.php">SPONSOREN</a>
                 <a href="#">BESTUUR</a>
-                <a href="#">OVER ONS</a>
-                <a href="#">CONTACT</a>
+                <a href="over-ons.php">OVER ONS</a>
+                <a href="contact.php">CONTACT</a>
             </div>
             </div>
         </div>

@@ -1,4 +1,10 @@
-<?php include('server.php'); ?>
+<?php include('tickets-server.php');
+
+if (empty($_SESSION['succes'])) {
+    header('location: tickets.php');
+}
+
+?>
 
 <!DOCTYPE html>
 <html>
@@ -7,7 +13,7 @@
         content="text/html";
         charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="footerheader.css">
-        <link rel="stylesheet" type="text/css" href="contact.css">
+        <link rel="stylesheet" type="text/css" href="tickets.css">
         <meta name="robots" content="all">
         <meta name="language" content="Dutch">
         <meta name="author" content="inowhare">
@@ -15,7 +21,7 @@
         <meta name="keywords" content="voetbal, hereveen, abe lenstra stadion">
         <title>sc hereveen</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-        <title>contact</title>
+        <title>ticket bestelt</title>
     </head>
     <body>
     <div class="header">
@@ -45,45 +51,22 @@
             </div>
             </div>
         </div>
-        <div class="box">
-            <div class="contact-info">
-            <div class="box">
-            <p>
-            kies hier een manier om met ons in contact te komen.<br>
-            U kunt het formulier invullen, maar ook rechtstreeks bellen of 
-            mailen
-            </p> <br>
-            <br>
-            <p class="info-big">
-            contact informatie:
-            </p>
-            <br>
-            <p>
-            e-mail: placeholder@email.com<br>
-            telefoon: 0514-415131<br>
-            plaats: Heerenveen
-            </p>
+        <div class="container">
+        <div class="input-box">
+            <?php if (isset($_SESSION['succes'])): ?>
+            <div class="succes">
+                <h3>
+                    <?php
+                    echo $_SESSION['succes'];
+                    unset($_SESSION['succes']);
+                    ?>
+                </h3>
             </div>
-            </div>
-            <div class="contact-formulier">
-                <form action="contact.php" method="POST">
-                    <?php include('errors.php') ?>
-                    <div class="textbox">
-                        <input type="text" autocomplete="given-name" placeholder="naam" name="name">
-                    </div>
-                    <div class="textbox">
-                        <input type="text" autocomplete="family-name" placeholder="achternaam" name="lastname">
-                    </div>
-                    <div class="textbox">
-                        <input type="email" autocomplete="email" placeholder="e-mail adres" name="email">
-                    </div>
-                    <div class="textfield">
-                        <textarea placeholder="uw bericht aan ons" 
-                        name="message" rows="4" cols="40"></textarea>
-                    </div>
-                    <button type="submit" name="submit" class="button">verstuur</button>
-                </form>
-            </div>
+        <?php endif ?>
+        </div>
+        <div class="field-img">
+          <img src="images/stadion.png">
+        </div>
         </div>
         <footer>
       <div class="mapouter">
