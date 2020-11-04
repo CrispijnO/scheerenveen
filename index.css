@@ -1,0 +1,107 @@
+main {
+  padding: 15px 0;
+  width: 95%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.5fr;
+  grid-template-rows: 1fr 2fr;
+  grid-gap: 0 15px;
+  grid-template-areas:
+    "welkom welkom welkom"
+    "ticket volgende bier";
+}
+.welkom {
+  grid-area: welkom;
+}
+.welkom h2 {
+  margin: 0;
+}
+main div:not(:first-child) {
+  color: #eaedf4 !important;
+}
+.ticketHighlight {
+  grid-area: ticket;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #004385;
+  /* border-radius: 15px; */
+  box-shadow: 3px 5px rgba(41, 67, 140, 0.4);
+}
+.ticketLink {
+  background-image: url(https://www.feanfan.nl/uploads/files/Seizoenkaart.jpg);
+  background-size: cover;
+}
+.aankomendeWedstrijd {
+  grid-area: volgende;
+  display: grid;
+  grid-template-columns: 1.5fr 2fr 1.5fr;
+  background-color: #004385;
+  /* border-radius: 15px; */
+  box-shadow: 3px 5px rgba(41, 67, 140, 0.4);
+  overflow: hidden;
+}
+.aankomendeWedstrijdText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+.aankomendeWedstrijd h2 {
+  text-align: center;
+}
+.aankomendeWedstrijd p {
+  margin: 0;
+  text-align: center;
+}
+.aankomendeWedstrijd img {
+  height: 100%;
+  max-width: 130%;
+  position: relative;
+  left: -30px;
+  margin: auto 0;
+  opacity: 0.5;
+  z-index: 1;
+}
+.bierAdvertentie {
+  grid-area: bier;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #004385;
+  /* border-radius: 15px; */
+  box-shadow: 3px 5px rgba(41, 67, 140, 0.4);
+}
+.bierLink {
+  background-image: url(https://heerenveensecourant.nl/media/MTIyNjIyNl9mNDE3YzhlYTA1YTY5NGZhNDIwOTQ1NTYxNzEyNzA3ZDNjY2UzZDY4XzExMjB4QzEyODB4ODUzLjMzMzMzMzMzMzMzKzArNTQ=.jpg);
+  background-size: cover;
+}
+.bierLink p,
+.ticketLink p {
+  width: fit-content;
+  padding: 25px;
+  background: rgba(0, 67, 133, 0.9);
+}
+main a {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (max-width: 740px) {
+  main {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    grid-template-areas:
+      "welkom"
+      "ticket"
+      "volgende"
+      "bier";
+  }
+}
