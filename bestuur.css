@@ -1,0 +1,51 @@
+.voortekst {
+  margin: auto;
+  margin-bottom: 50px !important;
+  padding: 5px;
+  background-color: #087ca7;
+  border-radius: 6px;
+  box-shadow: #004385 5px 5px 5px;
+  color: rgb(31, 30, 30);
+}
+.personen {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
+  color: rgb(31, 30, 30);
+}
+figure {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #087ca7;
+  border-radius: 6px;
+  box-shadow: #004385 5px 5px 5px;
+}
+.boxstr {
+  width: 40%;
+  height: fit-content;
+  margin-top: 100px !important;
+  margin: auto;
+  padding: auto;
+  background-color: #087ca7;
+  border-radius: 6px;
+  box-shadow: #004385 5px 5px 5px;
+  text-align: center;
+}
+.structuur {
+  width: 100%;
+}
+@media screen and (max-width: 740px) {
+  .personen {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 1fr 1fr 1fr 1fr !important;
+  }
+  .boxstr {
+    width: 90%;
+  }
+  .voortekst {
+    width: 90%;
+    font-size: small;
+  }
+}
