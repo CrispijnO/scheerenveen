@@ -1,127 +1,127 @@
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
-
-body {
-	background-color: #82c7ee;
+main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: #eaedf4;
 }
-
 .left {
-	float: left;
+  /* float: left; */
 }
 
 .match-block {
-	border: 2px solid black;
-	height: 120px;
-	margin-bottom: 5px;
-	background-color: #fff;
+  border: 2px solid black;
+  height: 120px;
+  margin-bottom: 5px;
+  background-color: #fff;
 }
 
 .matches {
-	padding: 50px 5% 50px 50px;
-	width: 60%;
+  padding: 50px 5% 50px 50px;
+  /* width: 60%; */
 }
 
 .tickets {
-	border: 2px solid black;
-	height: 100%;
-	background-color: #fff;
+  border: 2px solid black;
+  /* height: 100%; */
+  background-color: #fff;
 }
 
 .right-matches {
-	width: 20%;
-	height: auto;
-	margin: 0 auto;
-	padding-top: 50px;
-	position: relative;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 50px;
+  position: relative;
 }
 
 .tCenter {
-	text-align: center;
+  text-align: center;
 }
 
 .first-match-logo {
-	position: relative;
-	width: 60px;
-	margin-right: 50px;
+  position: relative;
+  width: 60px;
+  margin-right: 50px;
 }
 
 .second-match-logo {
-	position: relative;
-	width: 60px;
-	margin-left: 50px;
+  position: relative;
+  width: 60px;
+  margin-left: 50px;
 }
 
 .match-block-content {
-	height: 20px;
-	line-height: 50px;
-	padding: 15px;
-	text-align: center;
+  height: 20px;
+  line-height: 50px;
+  padding: 15px;
+  text-align: center;
 }
 
 .nextWedstrijd > div {
-	display: inline-block;
-	margin: 0 auto;
-	padding: 3px;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 3px;
 }
 
 .ticket-link {
-	height: max-content;
-	width: max-content;
+  height: max-content;
+  width: max-content;
 }
 
 .tickets:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .nextWedstrijd {
-	height: 90%;
-	width: 100%;
-	line-height: 50px;
-	padding: 0 15px 15px 15px;
-	text-align: center;
+  height: 90%;
+  width: 100%;
+  line-height: 50px;
+  padding: 0 15px 15px 15px;
+  text-align: center;
 }
 
 .vs-text-match {
-	text-align: center;
-	overflow: auto;
+  text-align: center;
+  overflow: auto;
 }
 
 .eredivisieStanden {
-	margin-top: 20px;
+  margin-top: 20px;
 }
 
 table.stand {
-	width: 100%;
-	color: #0168af;
-	border: 2px solid black;
-	background-color: #fff;
+  width: 100%;
+  color: #0168af;
+  border: 2px solid black;
+  background-color: #fff;
 }
 
 table.stand th {
-	text-align: right;
-	background: #0168af;
-	color: #fff;
-	padding: 3px;
+  text-align: right;
+  background: #0168af;
+  color: #fff;
+  padding: 3px;
 }
 
 table.stand td {
-	/* border-top: 1px solid #ccc; */
-	color: #000;
-	padding: 1px 3px;
-	vertical-align: middle;
-	text-align: right;
-	width: auto;
-	white-space: nowrap;
+  /* border-top: 1px solid #ccc; */
+  color: #000;
+  padding: 1px 3px;
+  vertical-align: middle;
+  text-align: right;
+  width: auto;
+  white-space: nowrap;
 }
 
 table.stand td img {
-	min-width: 50%;
+  min-width: 50%;
 }
 
 table.stand td.team {
-	white-space: normal;
+  white-space: normal;
 }
 
 table.stand td.logo,
@@ -129,110 +129,114 @@ table.stand td.positie,
 table.stand td.team,
 table.stand th.positie,
 table.stand th.team {
-	text-align: left;
-	width: auto;
+  text-align: left;
+  width: auto;
 }
 table.stand td.positie,
 table.stand th.positie {
-	width: 30px;
+  width: 30px;
 }
 table.stand td.punten {
-	font-weight: bold;
+  font-weight: bold;
 }
 table.stand tr.odd td {
-	background-color: #eee;
+  background-color: #eee;
 }
 table.stand tr.sch td {
-	background-color: #e5f0f7;
-	color: #0168af;
-	font-weight: bold;
+  background-color: #e5f0f7;
+  color: #0168af;
+  font-weight: bold;
 }
 
 .stand-text {
-	width: 100%;
-	max-width: 100%;
+  width: 100%;
+  max-width: 100%;
 }
 
 p.stand {
-	width: 100%;
-	font: 10px/12px Arial, sans-serif;
-	color: #999;
-	text-align: center;
-	background-color: #fff;
+  width: 100%;
+  font: 10px/12px Arial, sans-serif;
+  color: #999;
+  text-align: center;
+  background-color: #fff;
 }
 
 .eredivisieStanden {
-	text-align: center;
+  text-align: center;
 }
 
 .eredivisieStanden * {
-	max-width: 100%;
+  max-width: 100%;
 }
 
 .eredivisieStanden img.eredivisieStanden,
 img.eredivisieStanden {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 .eredivisieStanden div[id^="div-gpt-ad-"] {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 table {
-	width: fit-content;
+  width: fit-content;
 }
 
 th,
 td {
-	text-align: left;
+  text-align: left;
 }
 
 td.titel {
-	color: #0168af;
-	text-transform: uppercase;
-	font: 18px/18px "din-condensed-web-1", "din-condensed-web-2", Arial, sans-serif;
+  color: #0168af;
+  text-transform: uppercase;
+  font: 18px/18px "din-condensed-web-1", "din-condensed-web-2", Arial,
+    sans-serif;
 }
 
 @media only screen and (max-width: 740px) {
-	.right-matches {
-		width: 80%;
-		margin-left: 50px;
-		padding-top: 0;
-	}
+  /* .right-matches {
+    width: 80%;
+    margin-left: 50px;
+    padding-top: 0;
+  }
 
-	.match-block {
-		margin-bottom: 5px;
-	}
+  .match-block {
+    margin-bottom: 5px;
+  }
 
-	.matches {
-		left: 50%;
-		right: 50%;
-		margin: 0 auto;
-		padding: auto;
-		width: 80%;
-	}
+  .matches {
+    left: 50%;
+    right: 50%;
+    margin: 0 auto;
+    padding: auto;
+    width: 80%;
+  } */
+  main {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media only screen and (max-width: 520px) {
-	.second-match-logo {
-		margin-left: 10px;
-	}
+  .second-match-logo {
+    margin-left: 10px;
+  }
 
-	.first-match-logo {
-		margin-right: 10px;
-	}
+  .first-match-logo {
+    margin-right: 10px;
+  }
 
-	.matches {
-		width: 80%;
-	}
+  .matches {
+    width: 80%;
+  }
 
-	.right-matches {
-		width: 80%;
-		margin-left: 50px;
-	}
-	td.logo {
-		display: none;
-	}
-	th.img-h {
-		display: none;
-	}
+  .right-matches {
+    width: 80%;
+    margin-left: 50px;
+  }
+  td.logo {
+    display: none;
+  }
+  th.img-h {
+    display: none;
+  }
 }
