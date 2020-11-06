@@ -60,7 +60,7 @@ body {
 	text-align: center;
 }
 
-.volgendeWedstrijd > div {
+.nextWedstrijd > div {
 	display: inline-block;
 	margin: 0 auto;
 	padding: 3px;
@@ -75,7 +75,7 @@ body {
 	cursor: pointer;
 }
 
-.volgendeWedstrijd {
+.nextWedstrijd {
 	height: 90%;
 	width: 100%;
 	line-height: 50px;
@@ -89,10 +89,7 @@ body {
 }
 
 .eredivisieStanden {
-	width: 100%;
 	margin-top: 20px;
-	/* height: 100px; */
-	/* border: 2px solid black; */
 }
 
 table.stand {
@@ -157,7 +154,6 @@ table.stand tr.sch td {
 }
 
 p.stand {
-	/* margin-left: 100px; */
 	width: 100%;
 	font: 10px/12px Arial, sans-serif;
 	color: #999;
@@ -166,17 +162,7 @@ p.stand {
 }
 
 .eredivisieStanden {
-	/* background-color: #fff; */
 	text-align: center;
-	/*
-	background: transparent;
-	border: 0; padding: 0;
-	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
-	-o-border-radius: 0;
-	-ms-border-radius: 0;
-	border-radius: 0;
-	*/
 }
 
 .eredivisieStanden * {
@@ -192,7 +178,6 @@ img.eredivisieStanden {
 }
 
 table {
-	/* margin: 0 0 10px; */
 	width: fit-content;
 }
 
@@ -209,12 +194,45 @@ td.titel {
 
 @media only screen and (max-width: 740px) {
 	.right-matches {
-		width: 60%;
+		width: 80%;
 		margin-left: 50px;
 		padding-top: 0;
 	}
 
 	.match-block {
 		margin-bottom: 5px;
+	}
+
+	.matches {
+		left: 50%;
+		right: 50%;
+		margin: 0 auto;
+		padding: auto;
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width: 520px) {
+	.second-match-logo {
+		margin-left: 10px;
+	}
+
+	.first-match-logo {
+		margin-right: 10px;
+	}
+
+	.matches {
+		width: 80%;
+	}
+
+	.right-matches {
+		width: 80%;
+		margin-left: 50px;
+	}
+	td.logo {
+		display: none;
+	}
+	th.img-h {
+		display: none;
 	}
 }

@@ -1,16 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="wedstrijden.css" />
-		<title>Document</title>
+	<meta http-equiv="Content-Type"
+        content="text/html";
+        charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="footerheader.css">
+        <link rel="stylesheet" type="text/css" href="wedstrijden.css">
+        <meta name="robots" content="all">
+        <meta name="language" content="Dutch">
+        <meta name="author" content="inowhare">
+        <meta name="description" content="sc hereveen">
+        <meta name="keywords" content="voetbal, hereveen, abe lenstra stadion">
+        <title>Wedstrijden</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
 	</head>
 	<body>
+	<div class="header">
+            <div class="heerenveen">
+                <img src="images/heerenveen-logo.png" alt="logo" class="foto">
+                <div class="logo-text">
+                SC Heerenveen
+                </div>
+                <a href="sponsor.php">
+                <div class="sponsoren">
+                    <img src="images/Ausnutria-logo.png" alt="hoofdsponsor" class="foto-hoofdsponsor">
+                </div>
+                </a>
+            </div>
+            <div class="background">
+            <div class="nav">
+                <div class="index">NAVIGATIE</div>
+                <a href="index.php">HOME</a>
+                <a href="#">WEDSTRIJDEN</a>
+                <a href="spelers.php">SPELERS</a>
+                <a href="bier-home.php">BIER</a>
+                <a href="tickets.php">TICKETS</a>
+                <a href="sponsor.php">SPONSOREN</a>
+                <a href="#">BESTUUR</a>
+                <a href="over-ons.php">OVER ONS</a>
+                <a href="contact.php">CONTACT</a>
+            </div>
+            </div>
+        </div>
 		<div class="matches left">
 			<div class="match-block">
 				<div class="info"><h2 class="tCenter">Zondag 8 november 16:45</h2></div>
-				<div class="volgendeWedstrijd">
+				<div class="nextWedstrijd">
 					<div class="club1-match">
 						<img class="first-match-logo tCenter" src="./images/clubs/scheerenveen.png" alt="SC Heerenveen logo" />
 					</div>
@@ -25,7 +60,7 @@
 
 			<div class="match-block">
 				<div class="info"><h2 class="tCenter">Zondag 22 november 16:45</h2></div>
-				<div class="volgendeWedstrijd">
+				<div class="nextWedstrijd">
 					<div class="club1-match">
 						<img class="first-match-logo tCenter" src="./images/clubs/rkc_waalwijk.png" alt="RKC Waalwijk Logo" />
 					</div>
@@ -40,7 +75,7 @@
 
 			<div class="match-block">
 				<div class="info"><h2 class="tCenter">Zondag 28 november 20:00</h2></div>
-				<div class="volgendeWedstrijd">
+				<div class="nextWedstrijd">
 					<div class="club1-match">
 						<img class="first-match-logo tCenter" src="images/clubs/ado.png" alt="Ado Den Haag logo" />
 					</div>
@@ -55,7 +90,7 @@
 
 			<div class="match-block">
 				<div class="info"><h2 class="tCenter">Zondag 6 december 16:45</h2></div>
-				<div class="volgendeWedstrijd">
+				<div class="nextWedstrijd">
 					<div class="club1-match">
 						<img class="first-match-logo tCenter" src="images/clubs/scheerenveen.png" alt="SC Heerenveen logo" />
 					</div>
@@ -64,6 +99,48 @@
 					</div>
 					<div class="club2-match">
 						<img class="second-match-logo" src="images/clubs/psv.jpg" alt="PSV logo" />
+					</div>
+				</div>
+			</div>
+			<div class="match-block">
+				<div class="info"><h2 class="tCenter">Zondag 13 december 16:45</h2></div>
+				<div class="nextWedstrijd">
+					<div class="club1-match">
+						<img class="first-match-logo tCenter" src="./images/clubs/vitesse.png" alt="Vitesse logo" />
+					</div>
+					<div class="vs-text-match">
+						<h2>VS</h2>
+					</div>
+					<div class="club2-match">
+						<img class="second-match-logo" src="./images/clubs/scheerenveen.png" alt="SC Heerenveen logo" />
+					</div>
+				</div>
+			</div>
+			<div class="match-block">
+				<div class="info"><h2 class="tCenter">Zondag 20 december 16:45</h2></div>
+				<div class="nextWedstrijd">
+					<div class="club1-match">
+						<img class="first-match-logo tCenter" src="./images/clubs/scheerenveen.png" alt="SC Heerenveen logo" />
+					</div>
+					<div class="vs-text-match">
+						<h2>VS</h2>
+					</div>
+					<div class="club2-match">
+						<img class="second-match-logo" src="./images/clubs/heracles.jpg" alt="Heracles logo" />
+					</div>
+				</div>
+			</div>
+			<div class="match-block">
+				<div class="info"><h2 class="tCenter">Woensdag 23 december 16:45</h2></div>
+				<div class="nextWedstrijd">
+					<div class="club1-match">
+						<img class="first-match-logo tCenter" src="./images/clubs/feyenoord.png" alt="Feyenoord logo" />
+					</div>
+					<div class="vs-text-match">
+						<h2>VS</h2>
+					</div>
+					<div class="club2-match">
+						<img class="second-match-logo" src="./images/clubs/scheerenveen.png" alt="SC Heerenveen logo" />
 					</div>
 				</div>
 			</div>
@@ -76,7 +153,7 @@
 				<table class="stand">
 					<thead>
 						<tr
-							><th>&nbsp;</th>
+							><th class="img-h">&nbsp;</th>
 							<th class="positie">#</th>
 							<th class="team">Team</th>
 							<th>PM</th>
@@ -364,11 +441,6 @@
 						</tr>
 					</tbody>
 				</table>
-				<!-- <p class="stand"
-						>PM = Punten Mindering <br />G = Gespeeld <br />W = Winst <br />G = Gelijk <br />V = Verlies <br />P = Punten
-						<br />
-						<br />DV = Doelpunten voor <br />DT = Doelpunten tegen <br />DS = Doelsaldo</p
-					> -->
 			</div>
 			<div class="stand-text">
 				<p class="stand"
@@ -377,63 +449,54 @@
 					<br />DV = Doelpunten voor <br />DT = Doelpunten tegen <br />DS = Doelsaldo</p
 				>
 			</div>
-			<!-- <div class="eredivisieStanden">
-				<span>
-					<div class="clublogo-standen"></div>
-				</span> -->
-			<!-- </div> -->
 		</div>
-		<!-- <footer> 
-			<div class="mapouter">
-				<div class="gmap_canvas">
-					<iframe
-						width="100%"
-						height="300"
-						id="gmap_canvas"
-						src="https://maps.google.com/maps?q=abe%20lenstra%20&t=&z=13&ie=UTF8&iwloc=&output=embed"
-						frameborder="0"
-						scrolling="no"
-						marginheight="0"
-						marginwidth="0"
-					></iframe>
-				</div>
-			</div>
-			<div class="contactGegevens">
-				<h2>Contact</h2>
-				<p>
-					Email:
-					<br />
-					placeholder@email.com
-					<br />
-					<br />
-					Telefoon:
-					<br />
-					0515-415131
-					<br />
-					<br />
-					Plaats:
-					<br />
-					Heerenveen
-				</p>
-			</div>
-			<div class="volgendeWedstrijd">
-				<h2>Volgende Wedstrijd</h2>
-				<p>
-					<?php
-                  echo "23 December 2020
-                  <br />
-					14:00
-					<br />
-					Sc Heerenveen - Feyenoord
-					<br />
-					<img
-						class="firstLogo"
-						src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/SC_Heerenveen_logo.svg/1200px-SC_Heerenveen_logo.svg.png"
-						alt="SC Heerenveen logo"
-					/><img class="secondLogo" src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/Feyenoord_logo.svg/1200px-Feyenoord_logo.svg.png" alt="Feyenoord logo" />"
-					?>
-				</p>
-			</div>
-		</footer>-->
+		<footer>
+      <div class="mapouter">
+        <div class="gmap_canvas">
+          <iframe
+            width="100%"
+            height="300"
+            id="gmap_canvas"
+            src="https://maps.google.com/maps?q=abe%20lenstra%20&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+          ></iframe>
+        </div>
+      </div>
+      <div class="contactGegevens">
+        <h2>Contact</h2>
+        <p>
+          Email: 
+          <br>
+          placeholder@email.com
+          <br>
+          <br />
+          Telefoon: 
+          <br>
+          0515-415131 
+          <br>
+          <br />
+          Plaats:
+          <br>
+           Heerenveen
+        </p>
+      </div>
+      <div class="volgendeWedstrijd">
+        <h2>Volgende Wedstrijd</h2>
+        <p>
+          <?php
+            echo "23 December 2020
+            <br />
+            14:00
+            <br />
+            Sc Heerenveen - Feyenoord
+            <br>
+            <img class='firstLogo' src='https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/SC_Heerenveen_logo.svg/1200px-SC_Heerenveen_logo.svg.png' alt='SC Heerenveen logo'><img class='secondLogo' src='https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/Feyenoord_logo.svg/1200px-Feyenoord_logo.svg.png' alt='Feyenoord logo'>"
+          ?>
+        </p>
+      </div>
+    </footer>
 	</body>
 </html>
