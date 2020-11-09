@@ -16,8 +16,8 @@ main {
 .welkom h2 {
   margin: 0;
 }
-main div:not(:first-child) {
-  color: #eaedf4 !important;
+body {
+  background-color: #eaedf3;
 }
 .ticketHighlight {
   grid-area: ticket;
