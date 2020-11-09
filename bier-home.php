@@ -37,7 +37,7 @@
                 <a href="bier-home.php">BIER</a>
                 <a href="tickets.php">TICKETS</a>
                 <a href="sponsor.php">SPONSOREN</a>
-                <a href="#">BESTUUR</a>
+                <a href="bestuur.php">BESTUUR</a>
                 <a href="over-ons.php">OVER ONS</a>
                 <a href="contact.php">CONTACT</a>
             </div>
@@ -45,7 +45,7 @@
         </div>
     <main class="main">
       <div class="bestel">
-        <form action="Bier.php" method="POST">
+        <form action="bier.php" method="POST">
             <div class="input">
               <label>aantal:</label>
               <input type="number" name="aantal" required/><br />

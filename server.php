@@ -5,7 +5,7 @@ session_start();
 $errors = array();
 $sended = array();
 
-$db = mysqli_connect('localhost', 'root', '', 'heerenveen');
+$db = mysqli_connect('localhost', 'deb85590_heerenveen1', 'hS5LCDkkR@kHK4', 'deb85590_heerenveen1');
 
 if(isset($_POST['submit'])) {
     $name = mysqli_real_escape_string($db, $_POST['name']);

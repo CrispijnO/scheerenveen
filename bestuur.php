@@ -1,24 +1,21 @@
-<?php include('tickets-server.php') ?>
-
 <!DOCTYPE html>
-<html>
+<html lang="nl">
     <head>
-    <meta http-equiv="Content-Type"
+        <meta http-equiv="Content-Type"
         content="text/html";
         charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="footerheader.css">
-        <link rel="stylesheet" type="text/css" href="tickets.css">
+        <link rel="stylesheet" href="bestuur.css">
+        <link rel="stylesheet" href="footerheader.css">
         <meta name="robots" content="all">
         <meta name="language" content="Dutch">
         <meta name="author" content="inowhare">
         <meta name="description" content="sc hereveen">
         <meta name="keywords" content="voetbal, hereveen, abe lenstra stadion">
-        <title>sc hereveen</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-        <title>ticket</title>
+        <title>sc hereveen</title>
     </head>
     <body>
-    <div class="header">
+        <div class="header">
             <div class="heerenveen">
                 <img src="images/heerenveen-logo.png" alt="logo" class="foto">
                 <div class="logo-text">
@@ -45,37 +42,43 @@
             </div>
             </div>
         </div>
-        <div class="container">
-            <div class="input-box">
-                <p class="warning">let op!<br>uw bestelt tickets voor de eerst volgende wedstrijd!</p>
-                <?php include('errors.php') ?>
-                <form action="tickets.php" method="POST">
-                    <div class="textbox">
-                      <input type="text" autocomplete="given-name" placeholder="naam" name="name">
-                    </div>
-                    <div class="textbox">
-                      <input type="text" autocomplete="family-name" placeholder="achternaam" name="lastname">
-                    </div>
-                    <div class="textbox">
-                      <input type="tel" placeholder="telefoon nummer" name="phone">
-                    </div>
-                    <div class="textbox">
-                      <input type="text" autocomplete="email" placeholder="e-mail adres" name="email">
-                    </div>
-                    <div class="textbox">
-                      <input type="text" placeholder="uw zitvak ?" name="seat" maxlength="2">
-                    </div>
-                    <div class="amount">
-                      <input type="number" placeholder="max 10 tickets" name="amount">
-                    </div>
-                    <button type="submit" name="submit" class="button">bestel</button>
-                </form>
+        <!-- header end -->
+        <main class="pagina">
+            <div class="voortekst">
+                <h2>Wij als club hebben veel functies en bestaan uit veel verschillende hoofden. Met talloze vrijwilligers, 
+                trainers en ander personeel zijn wij trots op de mensen die onze club draaiende houden.
+                <br> Wij zijn de vier bleangrijkste hoofden van sc heerenveen en leiden de club op verschillende vlakken 
+                tot wat er maximaal mogelijk is.
+                </h2>
             </div>
-            <div class="field-img">
-              <img src="images/stadion.png">
+            <div class="personen">
+                <figure>
+                <img src="images/cees.jpg" class="bestuur">
+                <br> Cees Roozemond: Algemeen directeur
+                </figure>
+                <figure>
+                <img src="images/gerry.jpg" class="bestuur">
+                <br>Gerry Hamstra:
+                Technisch manager
+                </figure>
+                <figure>
+                <img src="images/martin.jpg" class="bestuur">
+                <br>Gerry Hamstra:
+                Technisch manager
+                </figure>
+                <figure>
+                <img src="images/danny.jpg" class="bestuur">
+                <br>Gerry Hamstra:
+                Technisch manager
+                </figure>
             </div>
-        </div>
-        <footer>
+            <div class="andere">
+               <div class="boxstr">
+                    <img src="images/structuur.png" class="structuur">
+                   </div> 
+            </div>
+        </main>
+            <footer>
       <div class="mapouter">
         <div class="gmap_canvas">
           <iframe
@@ -123,5 +126,4 @@
         </p>
       </div>
     </footer>
-    </body>
-</html>
+</body>

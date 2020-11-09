@@ -14,7 +14,7 @@ $possibleSeats = [
     "G1","G2","G3","G4"
 ];
 
-$db = mysqli_connect('localhost', 'root', '', 'heerenveen');
+$db = mysqli_connect('localhost', 'deb85590_heerenveen1', 'hS5LCDkkR@kHK4', 'deb85590_heerenveen1');
 
 if(isset($_POST['submit'])) {
     $name = mysqli_real_escape_string($db, $_POST['name']);
@@ -22,6 +22,7 @@ if(isset($_POST['submit'])) {
     $phone = mysqli_real_escape_string($db, $_POST['phone']);
     $email = mysqli_real_escape_string($db, $_POST['email']);
     $seat = mysqli_real_escape_string($db, $_POST['seat']);
+    $amount = mysqli_real_escape_string($db, $_POST['amount']);
 
     if(empty($name)) {
         array_push($errors, "vul uw naam in");
@@ -41,17 +42,23 @@ if(isset($_POST['submit'])) {
         if (array_search(strtoupper($seat), $possibleSeats) == false) {
             array_push($errors, "vul een geldig zitvak in");
         }     
-    } 
+    }
+    if($amount > 10) {
+        array_push($errors, "maximaal 10 tickets per keer");
+    }
+    if($amount == 0) {
+        array_push($errors, "minimaal 1 ticket bestellen");
+    }
     
     
     if(count($errors) == 0) {
-        $sql = "INSERT INTO tickets (name, lastname, phone, email, seat)
-        VALUES ('$name', '$lastname', '$phone', '$email', '$seat')";
+        $sql = "INSERT INTO tickets (name, lastname, phone, email, seat, amount)
+        VALUES ('$name', '$lastname', '$phone', '$email', '$seat', '$amount')";
 
         mysqli_query($db, $sql);
 
         $_SESSION['$name'] = $name;
-        $_SESSION['succes'] = "uw bestelling is een succes <br> u heeft bestelt voor vak: " . $seat;
+        $_SESSION['succes'] = "uw bestelling is een succes <br> u heeft voor vak " . $seat . ": " . $amount . " kaarten bestelt";
         header('location: tickets-succes.php');
     }
     

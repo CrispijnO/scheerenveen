@@ -8,9 +8,17 @@
 }
 
 body {
+<<<<<<< HEAD
   margin: 0;
   padding: 0;
   background-color: #eaedf3;
+=======
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #eaedf4;
+>>>>>>> 41dd3ad (deze versie staat nu online)
 }
 
 @media only screen and (max-width: 740px) {

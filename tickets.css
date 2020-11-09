@@ -1,7 +1,15 @@
 body {
+<<<<<<< HEAD
   margin: 0;
   padding: 0;
   background-color: #eaedf3;
+=======
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #eaedf4;
+>>>>>>> 41dd3ad (deze versie staat nu online)
 }
 
 .container {
@@ -61,6 +69,7 @@ form {
   resize: none;
 }
 
+<<<<<<< HEAD
 .textbox {
   width: 80%;
   overflow: hidden;
@@ -69,6 +78,17 @@ form {
   margin: 8px 20px;
   border-bottom: 2px solid black;
   resize: none;
+=======
+.textbox,
+.amount {
+    width: 80%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 20px;
+    border-bottom: 2px solid black;
+    resize: none;
+>>>>>>> 41dd3ad (deze versie staat nu online)
 }
 
 .textbox input {
@@ -80,6 +100,17 @@ form {
   width: 100%;
   float: left;
   margin: 5px;
+}
+
+.amount input {
+    border: none;
+    outline: none;
+    background: none;
+    color: black;
+    font-size: 18px;
+    width: 90%;
+    float: left;
+    margin: 5px;
 }
 
 .button {

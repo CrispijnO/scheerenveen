@@ -31,12 +31,12 @@
             <div class="nav">
                 <div class="index">NAVIGATIE</div>
                 <a href="index.php">HOME</a>
-                <a href="#">WEDSTRIJDEN</a>
+                <a href="wedstrijden.php">WEDSTRIJDEN</a>
                 <a href="spelers.php">SPELERS</a>
                 <a href="bier-home.php">BIER</a>
                 <a href="tickets.php">TICKETS</a>
                 <a href="sponsor.php">SPONSOREN</a>
-                <a href="wedstrijden.php">BESTUUR</a>
+                <a href="bestuur.php">BESTUUR</a>
                 <a href="over-ons.php">OVER ONS</a>
                 <a href="contact.php">CONTACT</a>
             </div>

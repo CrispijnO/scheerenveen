@@ -31,12 +31,12 @@
             <div class="nav">
                 <div class="index">NAVIGATIE</div>
                 <a href="index.php">HOME</a>
-                <a href="#">WEDSTRIJDEN</a>
+                <a href="wedstrijden.php">WEDSTRIJDEN</a>
                 <a href="spelers.php">SPELERS</a>
                 <a href="bier-home.php">BIER</a>
                 <a href="tickets.php">TICKETS</a>
                 <a href="sponsor.php">SPONSOREN</a>
-                <a href="#">BESTUUR</a>
+                <a href="bestuur.php">BESTUUR</a>
                 <a href="over-ons.php">OVER ONS</a>
                 <a href="contact.php">CONTACT</a>
             </div>
@@ -48,13 +48,17 @@
 					<div class="info"><h2 class="tCenter">Zondag 8 november 16:45</h2></div>
 					<div class="nextWedstrijd">
 						<div class="club1-match">
-							<img class="first-match-logo tCenter" src="./images/clubs/scheerenveen.png" alt="SC Heerenveen logo" />
+							<img class="first-match-logo tCenter" src="images/scheerenveen.png" alt="SC Heerenveen logo" />
 						</div>
 						<div class="vs-text-match">
 							<h2>VS</h2>
 						</div>
 						<div class="club2-match">
+<<<<<<< HEAD
 							<img class="second-match-logo" src="images/clubs/az-logo.png" alt="Feyenoord logo" />
+=======
+							<img class="second-match-logo" src="images/az-logo.png" alt="Feyenoord logo" />
+>>>>>>> 41dd3ad (deze versie staat nu online)
 						</div>
 					</div>
 				</div>
@@ -63,13 +67,17 @@
 					<div class="info"><h2 class="tCenter">Zondag 22 november 16:45</h2></div>
 					<div class="nextWedstrijd">
 						<div class="club1-match">
+<<<<<<< HEAD
 							<img class="first-match-logo tCenter" src="images/clubs/rkc_waalwijk.png" alt="RKC Waalwijk Logo" />
+=======
+							<img class="first-match-logo tCenter" src="images/rkc_waalwijk.png" alt="RKC Waalwijk Logo" />
+>>>>>>> 41dd3ad (deze versie staat nu online)
 						</div>
 						<div class="vs-text-match">
 							<h2>VS</h2>
 						</div>
 						<div class="club2-match">
-							<img class="second-match-logo" src="images/clubs/scheerenveen.png" alt="Heerenveen logo" />
+							<img class="second-match-logo" src= "images/scheerenveen.png" alt="Heerenveen logo" />
 						</div>
 					</div>
 				</div>
@@ -78,13 +86,13 @@
 					<div class="info"><h2 class="tCenter">Zondag 28 november 20:00</h2></div>
 					<div class="nextWedstrijd">
 						<div class="club1-match">
-							<img class="first-match-logo tCenter" src="images/clubs/ado.png" alt="Ado Den Haag logo" />
+							<img class="first-match-logo tCenter" src= "images/ado.png" alt="Ado Den Haag logo" />
 						</div>
 						<div class="vs-text-match">
 							<h2>VS</h2>
 						</div>
 						<div class="club2-match">
-							<img class="second-match-logo" src="images/clubs/scheerenveen.png" alt="Heerenveen logo" />
+							<img class="second-match-logo" src= "images/scheerenveen.png" alt="Heerenveen logo" />
 						</div>
 					</div>
 				</div>
@@ -93,13 +101,13 @@
 					<div class="info"><h2 class="tCenter">Zondag 6 december 16:45</h2></div>
 					<div class="nextWedstrijd">
 						<div class="club1-match">
-							<img class="first-match-logo tCenter" src="images/clubs/scheerenveen.png" alt="SC Heerenveen logo" />
+							<img class="first-match-logo tCenter" src= "images/scheerenveen.png" alt="SC Heerenveen logo" />
 						</div>
 						<div class="vs-text-match">
 							<h2>VS</h2>
 						</div>
 						<div class="club2-match">
-							<img class="second-match-logo" src="images/clubs/psv.jpg" alt="PSV logo" />
+							<img class="second-match-logo" src= "images/psv.jpg" alt="PSV logo" />
 						</div>
 					</div>
 				</div>
@@ -107,13 +115,13 @@
 					<div class="info"><h2 class="tCenter">Zondag 13 december 16:45</h2></div>
 					<div class="nextWedstrijd">
 						<div class="club1-match">
-							<img class="first-match-logo tCenter" src="./images/clubs/vitesse.png" alt="Vitesse logo" />
+							<img class="first-match-logo tCenter" src="images/vitesse.png" alt="Vitesse logo" />
 						</div>
 						<div class="vs-text-match">
 							<h2>VS</h2>
 						</div>
 						<div class="club2-match">
-							<img class="second-match-logo" src="./images/clubs/scheerenveen.png" alt="SC Heerenveen logo" />
+							<img class="second-match-logo" src="images/scheerenveen.png" alt="SC Heerenveen logo" />
 						</div>
 					</div>
 				</div>
@@ -121,13 +129,13 @@
 					<div class="info"><h2 class="tCenter">Zondag 20 december 16:45</h2></div>
 					<div class="nextWedstrijd">
 						<div class="club1-match">
-							<img class="first-match-logo tCenter" src="./images/clubs/scheerenveen.png" alt="SC Heerenveen logo" />
+							<img class="first-match-logo tCenter" src="images/scheerenveen.png" alt="SC Heerenveen logo" />
 						</div>
 						<div class="vs-text-match">
 							<h2>VS</h2>
 						</div>
 						<div class="club2-match">
-							<img class="second-match-logo" src="./images/clubs/heracles.jpg" alt="Heracles logo" />
+							<img class="second-match-logo" src="images/heracles.jpg" alt="Heracles logo" />
 						</div>
 					</div>
 				</div>
@@ -135,13 +143,13 @@
 					<div class="info"><h2 class="tCenter">Woensdag 23 december 16:45</h2></div>
 					<div class="nextWedstrijd">
 						<div class="club1-match">
-							<img class="first-match-logo tCenter" src="./images/clubs/feyenoord.png" alt="Feyenoord logo" />
+							<img class="first-match-logo tCenter" src="images/feyenoord.png" alt="Feyenoord logo" />
 						</div>
 						<div class="vs-text-match">
 							<h2>VS</h2>
 						</div>
 						<div class="club2-match">
-							<img class="second-match-logo" src="./images/clubs/scheerenveen.png" alt="SC Heerenveen logo" />
+							<img class="second-match-logo" src="images/scheerenveen.png" alt="SC Heerenveen logo" />
 						</div>
 					</div>
 				</div>
@@ -170,7 +178,7 @@
 						>
 						<tbody
 							><tr class="odd">
-								<td class="logo"><img src="./images/clubs/ajax.png" /></td>
+								<td class="logo"><img src="images/ajax.png" /></td>
 								<td class="positie">1</td>
 								<td class="team">Ajax</td>
 								<td></td>
@@ -185,7 +193,7 @@
 							</tr>
 
 							<tr class="even">
-								<td class="logo"><img src="./images/clubs/vitesse.png" /></td>
+								<td class="logo"><img src="images/vitesse.png" /></td>
 								<td class="positie">2</td>
 								<td class="team">Vitesse</td>
 								<td></td>
@@ -200,7 +208,7 @@
 							</tr>
 
 							<tr class="odd">
-								<td class="logo"><img src="./images/clubs/psv.jpg" /></td>
+								<td class="logo"><img src="images/psv.jpg" /></td>
 								<td class="positie">3</td>
 								<td class="team">PSV</td>
 								<td></td>
@@ -215,7 +223,7 @@
 							</tr>
 
 							<tr class="even">
-								<td class="logo"><img src="./images/clubs/scheerenveen.png" /></td>
+								<td class="logo"><img src="images/scheerenveen.png" /></td>
 								<td class="positie">4</td>
 								<td class="team">sc Heerenveen</td>
 								<td></td>
@@ -230,7 +238,7 @@
 							</tr>
 
 							<tr class="odd">
-								<td class="logo"><img src="./images/clubs/feyenoord.png" /></td>
+								<td class="logo"><img src="images/feyenoord.png" /></td>
 								<td class="positie">5</td>
 								<td class="team">Feyenoord</td>
 								<td></td>
@@ -245,7 +253,7 @@
 							</tr>
 
 							<tr class="even">
-								<td class="logo"><img src="./images/clubs/twente.jpg" /></td>
+								<td class="logo"><img src="images/twente.jpg" /></td>
 								<td class="positie">6</td>
 								<td class="team">FC Twente</td>
 								<td></td>
@@ -260,7 +268,7 @@
 							</tr>
 
 							<tr class="odd">
-								<td class="logo"><img src="./images/clubs/groningen.png" /></td>
+								<td class="logo"><img src="images/groningen.png" /></td>
 								<td class="positie">7</td>
 								<td class="team">FC Groningen</td>
 								<td></td>
@@ -275,7 +283,7 @@
 							</tr>
 
 							<tr class="even">
-								<td class="logo"><img src="./images/clubs/utrecht.png" /></td>
+								<td class="logo"><img src="images/utrecht.png" /></td>
 								<td class="positie">8</td>
 								<td class="team">FC Utrecht</td>
 								<td></td>
@@ -290,7 +298,7 @@
 							</tr>
 
 							<tr class="odd">
-								<td class="logo"><img src="./images/clubs/az-logo.png" /></td>
+								<td class="logo"><img src="images/az-logo.png" /></td>
 								<td class="positie">9</td>
 								<td class="team">AZ</td>
 								<td></td>
@@ -305,7 +313,7 @@
 							</tr>
 
 							<tr class="even">
-								<td class="logo"><img src="./images/clubs/heracles.jpg" /></td>
+								<td class="logo"><img src="images/heracles.jpg" /></td>
 								<td class="positie">10</td>
 								<td class="team">Heracles Almelo</td>
 								<td></td>
@@ -320,7 +328,7 @@
 							</tr>
 
 							<tr class="odd">
-								<td class="logo"><img src="./images/clubs/peczwolle.jpg" /></td>
+								<td class="logo"><img src="images/peczwolle.jpg" /></td>
 								<td class="positie">11</td>
 								<td class="team">PEC Zwolle</td>
 								<td></td>
@@ -335,7 +343,7 @@
 							</tr>
 
 							<tr class="even">
-								<td class="logo"><img src="./images/clubs/willem2.png" /></td>
+								<td class="logo"><img src="images/willem2.png" /></td>
 								<td class="positie">12</td>
 								<td class="team">Willem II</td>
 								<td></td>
@@ -350,7 +358,7 @@
 							</tr>
 
 							<tr class="odd">
-								<td class="logo"><img src="./images/clubs/rkc_waalwijk.png" /></td>
+								<td class="logo"><img src="images/rkc_waalwijk.png" /></td>
 								<!-- RKC Waalwijk-->
 								<td class="positie">13</td>
 								<td class="team">RKC Waalwijk</td>
@@ -366,7 +374,7 @@
 							</tr>
 
 							<tr class="even">
-								<td class="logo"><img src="./images/clubs/vvv_venlo.png" /></td>
+								<td class="logo"><img src="images/vvv_venlo.png" /></td>
 								<td class="positie">14</td>
 								<td class="team">VVV Venlo</td>
 								<td></td>
@@ -381,7 +389,7 @@
 							</tr>
 
 							<tr class="odd">
-								<td class="logo"><img src="./images/clubs/ado.png" /></td>
+								<td class="logo"><img src="images/ado.png" /></td>
 								<td class="positie">15</td>
 								<td class="team">ADO Den Haag</td>
 								<td></td>
@@ -396,7 +404,7 @@
 							</tr>
 
 							<tr class="even">
-								<td class="logo"><img src="./images/clubs/fc_emmen.png" /></td>
+								<td class="logo"><img src="images/fc_emmen.png" /></td>
 								<!-- FC Emmen-->
 								<td class="positie">16</td>
 								<td class="team">FC Emmen</td>
@@ -412,7 +420,7 @@
 							</tr>
 
 							<tr class="odd">
-								<td class="logo"><img src="./images/clubs/sparta.png" /></td>
+								<td class="logo"><img src="images/sparta.png" /></td>
 								<td class="positie">17</td>
 								<td class="team">Sparta</td>
 								<td></td>
@@ -427,7 +435,7 @@
 							</tr>
 
 							<tr class="even">
-								<td class="logo"><img class="stand-img" src="./images/clubs/Fortuna-Sittard.jpg" /></td>
+								<td class="logo"><img class="stand-img" src="images/Fortuna-Sittard.jpg" /></td>
 								<td class="positie">18</td>
 								<td class="team">Fortuna Sittard</td>
 								<td></td>
