@@ -5,10 +5,14 @@
 main {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  background-color: #eaedf4;
+  grid-gap: 15px;
+  /* background-color: #eaedf4; */
+  width: 95%;
+  padding: 15px 0;
+  margin: 0 auto;
 }
-.left {
-  /* float: left; */
+body {
+  background-color: #eaedf4;
 }
 
 .match-block {
@@ -18,19 +22,15 @@ main {
   background-color: #fff;
 }
 
-.matches {
-  padding: 50px 5% 50px 50px;
-  /* width: 60%; */
-}
-
 .tickets {
   border: 2px solid black;
-  /* height: 100%; */
   background-color: #fff;
+}
+.logo img {
+  max-height: 25px;
 }
 
 .right-matches {
-  width: 80%;
   height: auto;
   margin: 0 auto;
   padding-top: 50px;

@@ -36,7 +36,7 @@
                 <a href="bier-home.php">BIER</a>
                 <a href="tickets.php">TICKETS</a>
                 <a href="sponsor.php">SPONSOREN</a>
-                <a href="#">BESTUUR</a>
+                <a href="wedstrijden.php">BESTUUR</a>
                 <a href="over-ons.php">OVER ONS</a>
                 <a href="contact.php">CONTACT</a>
             </div>

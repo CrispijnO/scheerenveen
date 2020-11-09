@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="footerheader.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <title>SC Heerenveen Home</title>
 </head>
 <body>
@@ -24,7 +28,7 @@
             <div class="nav">
                 <div class="index">NAVIGATIE</div>
                 <a href="index.php">HOME</a>
-                <a href="#">WEDSTRIJDEN</a>
+                <a href="wedstrijden.php">WEDSTRIJDEN</a>
                 <a href="spelers.php">SPELERS</a>
                 <a href="bier-home.php">BIER</a>
                 <a href="tickets.php">TICKETS</a>

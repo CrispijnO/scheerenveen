@@ -32,7 +32,7 @@
             <div class="nav">
                 <div class="index">NAVIGATIE</div>
                 <a href="index.php">HOME</a>
-                <a href="#">WEDSTRIJDEN</a>
+                <a href="wedstrijden.php">WEDSTRIJDEN</a>
                 <a href="spelers.php">SPELERS</a>
                 <a href="bier-home.php">BIER</a>
                 <a href="tickets.php">TICKETS</a>
