@@ -19,6 +19,9 @@ main {
 body {
   background-color: #eaedf3;
 }
+main div:not(:first-child) {
+  color: #eaedf4 !important;
+}
 .ticketHighlight {
   grid-area: ticket;
   display: flex;
