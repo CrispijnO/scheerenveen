@@ -54,11 +54,7 @@
 							<h2>VS</h2>
 						</div>
 						<div class="club2-match">
-<<<<<<< HEAD
-							<img class="second-match-logo" src="images/clubs/az-logo.png" alt="Feyenoord logo" />
-=======
 							<img class="second-match-logo" src="images/az-logo.png" alt="Feyenoord logo" />
->>>>>>> 41dd3ad (deze versie staat nu online)
 						</div>
 					</div>
 				</div>
@@ -67,11 +63,7 @@
 					<div class="info"><h2 class="tCenter">Zondag 22 november 16:45</h2></div>
 					<div class="nextWedstrijd">
 						<div class="club1-match">
-<<<<<<< HEAD
-							<img class="first-match-logo tCenter" src="images/clubs/rkc_waalwijk.png" alt="RKC Waalwijk Logo" />
-=======
 							<img class="first-match-logo tCenter" src="images/rkc_waalwijk.png" alt="RKC Waalwijk Logo" />
->>>>>>> 41dd3ad (deze versie staat nu online)
 						</div>
 						<div class="vs-text-match">
 							<h2>VS</h2>

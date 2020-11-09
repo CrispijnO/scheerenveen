@@ -1,3 +1,9 @@
+body {
+  background-color: #eaedf3;
+}
+.pagina {
+  padding: 15px 0;
+}
 .voortekst {
   margin: auto;
   margin-bottom: 50px !important;
